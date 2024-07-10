@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+background: #faefef;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    color: inherit;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/* header start */
+.header_nav {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heaedr_list{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    
+}
+
+.heaedr_list li a{
+    color: #373737;
+    
+}
+
+.header_btn{
+    padding: 11px 35px;
+    background-color: inherit;
+    border: 1px solid #717CFF;
+    border-radius: 10px;
+}
+/* header end */
+
+/* hero start */
+
+.hero_wrapper {
+    padding-top: 147px;
+    display: flex;
+    align-items: center;
+    gap: 61px;
+}
+.hero_title{
+    font-size: 56px;
+    font-weight: 900;
+    width: 500px;
+}
+.hero_span{
+    font-size: 56px;
+    font-weight: 900;
+    color: #717CFF;
+}
+
+.hero_desk{
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 55;
+    color: #7D7D7D;
+    width: 632px;
+}
+
+.hero_btn{
+    margin-top: 42px;
+    padding: 12px 34px;
+    border: none;
+    background: #717CFF;
+    border-radius: 15px;
+}
+.hero_btn-span{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.hero_left-bottom{
+    margin-top: 101px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+/* hero end */
+
+/* universitets start */
+
+.wrapper_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.universtes_cards{
+    padding-top: 86px;
+    display: flex;
+    align-items: center;
+    gap: 74px;
+}
+.universites_bottom-f{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #717CFF;
+}
+.universites_bottom-a{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #808080;
+}
+
+.universites_bottom{
+    padding: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+
+/* universitets end */
+
+/* servis start */
+.servis_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.servis_title{
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.servis_info{
+    padding-top: 25px;
+    width: 949px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #7D7D7D;
+    text-align: center;
+}
+
+
+.servis_cards-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+}
+.servis_cards-bottom{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+}
+.servis_card{
+border-radius: 15px;
+    width: 344px;
+    background: #FFFFFF;
+    padding: 29px 31px;
+}
+
+.servis_head{
+    padding-bottom: 30px;
+}
+
+.servis_card-info{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.servis_card-desc{
+    padding-top: 10px;
+    width: 296px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7D7D7D;
+}
+
+.servis_card-bottom{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #717CFF;
+}
+/* servis end */
